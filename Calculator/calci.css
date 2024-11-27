@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   background-color: #3a4452;
+   background-size:cover;
+   background-position: right top;
+   background-size: 500px 800px;
+   
+}
+
+
+marquee{
+       font-weight: 600px;
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+    color: red;
+}
+
+.box{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.calculator{
+    border: 5px solid #3a4452;
+    padding: 20px;
+    border-radius: 16px;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+    box-shadow:0 0 20px #00fffb,0 0 30px #0081bc;
+    
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(8, 122, 215, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(212, 215, 222, 0.2);
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.eqlbtn{
+    background:linear-gradient( yellow , red );
+   }
+
+.opr{
+    color: aqua;
+}
