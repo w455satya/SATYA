@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+    margin: 20px;
+}
+
+body{
+    display: flex;
+    height:100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(41deg,pink,yellow,red); */
+    /* background-color:rgb(230, 142, 66); */
+    background: linear-gradient(50DEG,rgb(213, 18, 223),rgb(228, 31, 176));
+}
+.stopwatch{
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px 24px;
+  border: 2px dotted rgb(27, 205, 122);
+
+}
+
+.timerdisplay{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.btn1 {
+    font-size: 20px;
+    background: green;
+    color: white; /* Text color for contrast */
+    border: none;
+    padding: 8px 16px; /* Slightly increased padding for a better look */
+    border-radius: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.btn1:hover {
+    background: darkgreen; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn1:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+.btn2 {
+    font-size: 20px;
+    background: rgb(189, 13, 13);
+    color: white; /* Text color for contrast */
+    border: none;
+    padding: 8px 16px; /* Slightly increased padding for a better look */
+    border-radius: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.btn2:hover {
+    background: darkred; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn2:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+.btn3 {
+    font-size: 20px;
+    background: blue;
+    color: white; /* Text color for contrast */
+    border: none;
+    padding: 8px 16px; /* Slightly increased padding for a better look */
+    border-radius: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.btn3:hover {
+    background: darkblue; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn3:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
